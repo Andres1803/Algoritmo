@@ -1,0 +1,185 @@
+// Realizar la suma hasta N de los numerous impares
+include "stdafx.h"
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+using namespace std;
+int obtenerSumaImparesHastaN(int n);
+int main()
+{
+	int n;	
+	cout << endl << " Ingrese N: ";
+	cin >> n;
+	int suma = obtenerSumaImparesHastaN(n);	
+	cout << endl << " La suma de los impres hasta N es = " << suma;
+	getch();
+	return 0;
+}
+int obtenerSumaImparesHastaN(int n)
+{
+	int suma = 0;
+	for(int i = 1; i <= n; i++)
+	{
+		if((i % 2) != 0)
+		{
+			suma = suma + i;
+		}
+	}
+	return suma;
+}
+
+//Realizar la suma de los primeros N numeros impares
+include "stdafx.h"
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+using namespace std;
+
+int obtenerSumaPrimerosNImpares(int n);
+
+int main()
+{
+	int n;
+	
+	cout << endl << "Ingrese N: ";
+	cin >> n;
+
+	int suma = obtenerSumaPrimerosNImpares(n);
+	
+	cout << endl << " La suma de los primeros N numeros impres es = " << suma;
+
+	getch();
+
+	return 0;
+}
+int obtenerSumaPrimerosNImpares(int n)
+{
+	int suma = 0;
+	int cont = 1;
+	int valor = 1;
+
+	while(cont <= n)
+	{
+		if((i % 2) != 0)
+		{
+			suma = suma + valor;
+			cont++;
+		}
+
+		valor++
+	}
+
+	return suma;
+}
+
+//Realizar la suma de los primeros N numeros impares  mientras no se digite un numero negativo
+include "stdafx.h"
+
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+int obtenerSumaPrimerosNImpares(int n);
+
+int main()
+{
+	int n;
+	
+	do
+	{
+		cout << endl << " Ingrese N: ";
+		cin >> n;
+
+		if(n <= 0)
+		{
+			cout << endl << " >> ERROR: Debe ingresar un numero positivo.";
+			getch();
+		}
+	}
+	while(n <= 0);
+
+	int suma = obtenerSumaPrimerosNImpares(n);
+	
+	cout << endl << " La suma de los primeros N numeros impres es = " << suma;
+
+	getch();
+
+	return 0;
+}
+int obtenerSumaPrimerosNImpares(int n)
+{
+	int suma = 0;
+	int cont = 1;
+	int valor = 1;
+
+	while(cont <= n)
+	{
+		if((i % 2) != 0)
+		{
+			suma = suma + valor;
+			cont++;
+		}
+
+		valor++
+	}
+
+	return suma;
+}
+
+
+//Realizar la suma de los primeros N numeros impares  mientras no se digite un numero negativo
+include "stdafx.h"
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+int obtenerSumaPrimerosNImpares(int n);
+
+int main()
+{
+	int n;
+	
+	do
+	{
+		cout << endl << " Ingrese N: ";
+		cin >> n;
+
+		if(n <= 0)
+		{
+			cout << endl << " >> ERROR: Debe ingresar un numero positivo.";
+			getch();
+		}
+	}
+	while(n <= 0);
+
+	int suma = obtenerSumaPrimerosNImpares(n);
+	
+	cout << endl << " La suma de los primeros N numeros impres es = " << suma;
+
+	getch();
+
+	return 0;
+}
+int obtenerSumaPrimerosNImpares(int n)
+{
+	int suma = 0;
+	int cont = 1;
+	int valor = 1;
+
+	while(cont <= n)
+	{
+		if((i % 2) != 0)
+		{
+			suma = suma + valor;
+			cont++;
+		}
+
+		valor++
+	}
+
+	return suma;
+}
